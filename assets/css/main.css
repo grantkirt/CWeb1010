@@ -1,0 +1,88 @@
+/* YOUR FONTS GO HERE */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+/* HEX CODES:
+#1B2616
+#2B4016
+#4F7302
+#3E5902
+#0D0D0D
+*/
+
+/* YOUR CSS GOES HERE */
+body {
+  font-family: 'Raleway', sans-serif;
+}
+header {
+  background-image: url("../../img/forest.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 100px;
+}
+h1 {
+  text-align: center;
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.5);
+  padding:30px;
+  border: 1px solid #4F7302 ;
+}
+section {
+  padding: 50px 0 50px;
+}
+ul.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+#about {
+  background-color: #2B4016 ;
+}
+#about h2 {
+  color: #ffffff;
+}
+#about p {
+  color: #FFFDD0;
+}
+#resume h2 {
+  color: #02731E;
+}
+#resume h3 {
+  font-size:24px;
+  color: #1B2616;
+}
+#resume h3 {
+  font-size:18px;
+  color: #02731E;
+  font-weight: bold;
+}
+#skills {
+  background-color: #4F7302 ;
+}
+#skills h2 {
+  color: #ffffff;
+}
+.skillbox {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 15px;
+}
+p.fas,
+p.far {
+  font-size:28px;
+  text-align:center;
+}
+.portfolio-image {
+padding-top: 20px !important;
+}
+img.img-fluid.portfolio-image {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+  footer {
+    background-color: #000;
+    padding-top:20px;
+    padding-bottom:50px;
+  }
+footer p {
+  color: #ffffff;
+}
